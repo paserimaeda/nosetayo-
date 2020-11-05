@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LINE@つるみちゃん</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/send_url.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="header-logo">LINE@つるみちゃん</a>
+    </header>
+    <div class="container">
+      <div class="container-header">
+        <h1>メッセージリスト作成</h1>
+      </div>
+      <div class="item-form-wrapper">
+        <p class="form-label">メッセージ入力フォーム</p>
+        <form action="/create" method="post">
+           <input type="text" name="itemName" placeholder="自分が送りたい言葉">
+           <input type="text" name="itemReply" placeholder="鶴見中尉殿からもらいたいお返事">
+          <input type="submit" value="作成する">
+        </form>
+      </div>
+      <a href="/index" class="cancel-button"></span>もどる</a>
+    </div>
+  </body>
+</html>
